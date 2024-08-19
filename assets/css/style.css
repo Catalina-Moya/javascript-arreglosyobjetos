@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px;
+}
+
+hr {
+    border: 1px solid rgba(128, 128, 128, 0.36);
+    margin: 30px 230px 30px 230px;
+}
+
+.inmobilaria {
+    color: black;
+    font-size: large;
+}
+
+.venta,
+.alquiler {
+    color: gray;
+    transition: color 0.3s ease;
+}
+
+.venta:hover,
+.alquiler:hover {
+    color: black;
+}
+
+.header-container {
+    background-image: url(../img/img-main.jpeg);
+    height: 250px;
+    background-size: cover;
+    background-position-y: -200px;
+}
+
+.header-container p {
+    font-size: 40px;
+    font-family: "Mukta", sans-serif;
+    margin-left: 40px;
+    max-height: 20px;
+    color: white;
+    text-align: center;
+    line-height: 6.0;
+}
+
+
+.div-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 30px;
+}
+
+.div-container-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 30px;
+    margin: 50px;
+}
+
+.card-img {
+    margin: 0;
+    padding: 0;
+}
+
+.card-img img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px 5px 0 0;
+}
+
+.article-card {
+    background-color: white;
+    border-radius: 5px;
+    width: 20rem;
+    height: 30rem;
+    border: 1px solid #cdcdcd;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-subtitle {
+    margin-top: 5px;
+    font-size: small;
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+}
+
+.card-text {
+    margin-top: 15px;
+    font-size: small;
+    font-weight: lighter;
+    color: rgb(51, 51, 51);
+}
+
+.title {
+    margin: 50px 40px -18px 0;
+    margin-left: 14.5rem;
+    font-size: 24px;
+}
+
+.btn-black {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    margin: 25px 25px 25px 14.5rem;
+}
+
+.btn-black-2 {
+    display: inline-block;
+    background-color: #000;
+    color: #fff;
+    border: none;
+    padding: 7px;
+    border-radius: 5px;
+    margin: 0px 25px 25px 14.5rem;
+}
+
+.card-text span {
+    font-size: 14px;
+}
